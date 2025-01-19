@@ -18,4 +18,4 @@ This project has been worked on for around a week, starting from January 10th 20
 ## System Requirements
 Android 11
 
-# Created by Neo802, now free for use under MIT License as of January 19th 2025.
+**Created by Neo802, now free for use under MIT License since January 19th 2025.**
