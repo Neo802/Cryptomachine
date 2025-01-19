@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select one of the options below"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+	<Button
+		android:id="@+id/button_caesar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Caesar Cipher" />
+
+	<Button
+		android:id="@+id/button_vatsayana"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Vatsayana Cipher" />
+
+	<Button
+		android:id="@+id/button_vigenere"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Vigenère Cipher" />
+
+	<Button
+		android:id="@+id/button_beaufort"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Beaufort Cipher" />
+
+	<Button
+		android:id="@+id/button_autokey"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Autokey Cipher" />
+
+	<Button
+		android:id="@+id/button_playfair"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Playfair Cipher" />
+
+	<Button
+		android:id="@+id/button_two_square"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Two-Square Cipher" />
+
+	<Button
+		android:id="@+id/button_four_square"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="Four-Square Cipher" />
+
+
+</LinearLayout>

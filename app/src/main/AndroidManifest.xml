@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cryptomachine"
+        tools:targetApi="31">
+
+        <!-- Main Activity -->
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Caesar Cipher Activity -->
+        <activity android:name=".activities.CaesarActivity"
+            android:label="Caesar" />
+
+        <!-- Vatsayana Cipher Activity -->
+        <activity android:name=".activities.VatsayanaActivity"
+            android:label="Vatsayana" />
+
+        <!-- Vigenère Cipher Activity -->
+        <activity android:name=".activities.VigenereActivity"
+            android:label="Vigenere" />
+
+        <!-- Beaufort Cipher Activity -->
+        <activity android:name=".activities.BeaufortActivity"
+            android:label="Beaufort" />
+
+        <!-- Autokey Cipher Activity -->
+        <activity android:name=".activities.AutokeyActivity"
+            android:label="Autokey" />
+
+        <!-- Playfair Cipher Activity -->
+        <activity android:name=".activities.PlayfairActivity"
+            android:label="Playfair" />
+
+        <!-- Two-Square Cipher Activity -->
+        <activity android:name=".activities.TwoSquareActivity"
+            android:label="Two-Square" />
+
+        <!-- Four-Square Cipher Activity -->
+        <activity android:name=".activities.FourSquareActivity"
+            android:label="Four-Square" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>
